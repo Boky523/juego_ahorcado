@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    
+}
+
+
+  
+  
+  .boton_categoria {
+    position: relative;
+    height: 70px;
+    width: 800px;
+    top: 20px;
+    margin: 5px;
+    margin-top: 10px;
+    font-family: "Peralta", cursive;
+    font-family: "Permanent Marker", cursive;
+    font-family: "Roboto Mono", monospace;
+  }
+  
+  .boton_categoria:hover {
+    transition: all 1s;
+    position: relative;
+    color: white;
+    background-color: rgb(103, 102, 102);
+    scale: 1.03;
+  }
+
+
+  
+  
+  .letras {
+    flex-flow: row wrap;
+  }
+  
+  .imagen_categoria {
+    position: relative;
+    width: 30px;
+    height: 35px;
+    display: block;
+    left:20%;
+    top: -25%;
+  }
+  
+

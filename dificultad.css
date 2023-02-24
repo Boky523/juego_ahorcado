@@ -1,0 +1,63 @@
+.boton_nivel {
+  position: relative;
+  height: 90px;
+  width: 100%;
+  top: 20px;
+  margin: 5px;
+  margin-top: 10px;
+  font-family: "Peralta", cursive;
+  font-family: "Permanent Marker", cursive;
+  font-family: "Roboto Mono", monospace;
+}
+
+.boton_nivel:hover {
+  transition: all 1s;
+  position: relative;
+  color: white;
+  background-color: rgb(103, 102, 102);
+  scale: 1.03;
+}
+
+
+.inicioa {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 25px;
+  font-family: "Peralta", cursive;
+  font-family: "Permanent Marker", cursive;
+  font-family: "Roboto Mono", monospace;
+  border-bottom: white solid 2px;
+  border-top: white solid 2px;
+}
+
+.icono_juego {
+  width: 120px;
+  height: 100px;
+  top: -20px;
+}
+
+.inicioa:hover {
+  color: rgb(205, 209, 87);
+  transition: all 0.3s;
+  scale: 2;
+}
+
+.volver {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 25px;
+  font-family: "Peralta", cursive;
+  font-family: "Permanent Marker", cursive;
+  font-family: "Roboto Mono", monospace;
+  border-bottom: white solid 2px;
+  border-top: white solid 2px;
+}
+
+
+.volver:hover {
+  color: rgb(205, 209, 87);
+  transition: all 0.3s;
+  scale: 2;
+}

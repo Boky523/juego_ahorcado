@@ -1,0 +1,263 @@
+body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-color: black;
+  height: 100vh;
+  
+}
+
+#footer {
+  height: 120px;
+  background-color: rgb(0, 0, 0);
+}
+
+#jugar{
+  width: 100px;
+  height: 50px;
+  transition: all 0.5s;
+  margin: 40px;
+}
+
+#jugar:hover{
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  
+}
+
+#header {
+  height: 130px;
+  background-color: black;
+}
+
+#palabra_a_adivinar span {
+  font-size: 2em;
+  border-bottom: 2px solid black;
+  width: 30px;
+  display: inline-block;
+  vertical-align: bottom;
+  margin-right: 15px;
+}
+
+#imagen {
+  height: 30em;
+}
+
+.boton_categoria {
+  position: relative;
+  height: 70px;
+  width: 200px;
+  left: 20px;
+  top: 20px;
+  margin: 10px;
+  font-family: "Peralta", cursive;
+  font-family: "Permanent Marker", cursive;
+  font-family: "Roboto Mono", monospace;
+}
+
+.boton_categoria:hover {
+  transition: all 1s;
+  position: relative;
+  color: white;
+  background-color: rgb(103, 102, 102);
+  left: 10%;
+}
+
+.inicioa {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 25px;
+  font-family: "Peralta", cursive;
+  font-family: "Permanent Marker", cursive;
+  font-family: "Roboto Mono", monospace;
+  border-bottom: white solid 2px;
+  border-top: white solid 2px;
+}
+
+.icono_juego {
+  width: 120px;
+  height: 100px;
+  top: -20px;
+}
+
+.inicioa:hover {
+  color: rgb(205, 209, 87);
+  transition: all 0.3s;
+  scale: 2;
+}
+
+
+.letras {
+  flex-flow: row wrap;
+}
+
+.imagen_categoria {
+  position: relative;
+  width: 30px;
+  height: 35px;
+  display: block;
+  left: 75px;
+}
+
+.boton {
+  width: 50px;
+  height: 50px;
+  margin: 7.5px;
+  border-radius: 5px;
+}
+
+.boton:hover {
+  background-color: black;
+  color: white;
+  transition: all 0.5s;
+  border-radius: 10px;
+  scale: 1.1;
+}
+
+#categorias {
+  position: relative;
+  display: flex;
+  font-family: "Peralta", cursive;
+  font-family: "Permanent Marker", cursive;
+  font-family: "Roboto Mono", monospace;
+  left: 20px;
+  top: 20px;
+}
+
+.guion_bajo {
+  width: auto;
+  height: 200px;
+  background-color: rgb(251, 251, 251);
+}
+
+
+/* 
+alerta alerta alerta alerta alerta alerta alerta alerta 
+alerta alerta alerta alerta alerta alerta alerta alerta 
+alerta alerta alerta alerta alerta alerta alerta alerta 
+alerta alerta alerta alerta alerta alerta alerta alerta  */
+
+
+.alerta {
+  position: absolute;
+  z-index: 3;
+  width: 100vh;
+  height: 200px;
+  background-color: rgba(237, 240, 71, 0.61);
+  left: 20%;
+  top: 30%;
+  font-family: "Peralta", cursive;
+  font-family: "Permanent Marker", cursive;
+  font-family: "Roboto Mono", monospace;
+  font-size: 2rem;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.alerta_lose {
+  position: absolute;
+  z-index: 3;
+  width: 100vh;
+  height: 200px;
+  background-color: rgba(224, 19, 19, 0.693);
+  left: 20%;
+  top: 30%;
+  font-family: "Peralta", cursive;
+  font-family: "Permanent Marker", cursive;
+  font-family: "Roboto Mono", monospace;
+  font-size: 2rem;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+.nombrecategoria {
+  font-family: "Peralta", cursive;
+  font-family: "Permanent Marker", cursive;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 800;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.boton_denuevo {
+  border-radius: 10%;
+  width: 120px;
+  height: 80px;
+  font-size: 15px;
+  margin: 10px;
+  margin-left: 50px;
+}
+
+.boton_denuevo:hover {
+  transition: 0.5s;
+  background-color: rgb(66, 198, 66);
+  border-radius: 20px;
+
+}
+
+
+
+.alert_win {
+  position: absolute;
+  z-index: 3;
+  width: 100vh;
+  height: 200px;
+  background-color: rgba(31, 164, 17, 0.693);
+  left: 20%;
+  top: 30%;
+  font-family: "Peralta", cursive;
+  font-family: "Permanent Marker", cursive;
+  font-family: "Roboto Mono", monospace;
+  font-size: 2rem;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+#jugar{
+  width: 100px;
+  height: 50px;
+  transition: all 0.5s;
+  margin: 5px;
+  
+}
+
+#jugar:hover{
+  background-color: rgb(98, 95, 95);
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  
+}
+
+
+.volver {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 25px;
+  font-family: "Peralta", cursive;
+  font-family: "Permanent Marker", cursive;
+  font-family: "Roboto Mono", monospace;
+  border-bottom: white solid 2px;
+  border-top: white solid 2px;
+  top: 50%;
+}
+
+
+.volver:hover {
+  color: rgb(205, 209, 87);
+  transition: all 0.3s;
+  scale: 1.18;
+}

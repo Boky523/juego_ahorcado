@@ -1,0 +1,33 @@
+
+.header{
+    height: 16vh;
+    background-color: black;
+}
+.juego{
+    height: 400px;
+}
+
+#centro{
+    height: 500px;
+}
+
+.boton{
+    width: 50px;
+    height: 50px;
+    margin: 7.5px;
+    border-radius: 5px;
+}
+
+.boton:hover{
+    background-color: black;
+    color: white;
+    transition: all 0.5s;
+    border-radius: 10px;
+    scale: 1.1;
+}
+
+.letras{
+    position: relative;
+    top: 80px;
+}
+

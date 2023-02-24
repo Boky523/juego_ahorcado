@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+    <title>selec palabra</title>
+    <link rel="stylesheet" href="selec_palabra.css" />
+</head>
+
+<body style="background-color: black;">
+
+
+    <div class="row" style="height: 170px;">
+        <div class="col-3"></div>
+        <div class="col-6">
+            <center>
+                <img src="/juego_ahorcado/recursos/imagenes/icono_juego_blanco.png" style="height: 170px;width: 150px;" alt="">
+                <span class="inicio"> <a href="/juego_ahorcado/login.html" class="inicioa">Inicio</a></span>
+            </center>
+        </div>
+        <div class="col-3">
+            
+        </div>
+    </div>
+
+    <div class="row" style="background-color:white;height: 200px; ">
+        <div class="col-3"></div>
+        <div class="col-6">
+            <p class="pregunta">Con que palabra deseas jugar?</p>
+        </div>
+        <div class="col-3"></div>
+    </div>
+
+    <div class="row" style="background-color:white;">
+        <div class="col-3"></div>
+        <div class="col-6">
+            <center>
+                <input type="text" id="ingreso" class="palabra" placeholder="ingresa la palabra">
+            </center>
+        </div>
+        <div class="col-3">
+            <button onclick="agregar()" type="button" class="btn btn-info">Guardar palabra</button>
+
+        </div>
+    </div>
+
+    <div class="row" style="background-color:white ;">
+        <div class="col-4"></div>
+        <div class="col-4">
+            <center>
+                <p class="alerta" id="alertas">solo se permiten caracteres alfabeticos</p>
+            </center>
+        </div>
+        <div class="col-4">
+
+        </div>
+    </div>
+
+    <div class="row" style="position:relative;top: 100px;">
+        <div class="col-4"></div>
+        <div class="col-4">
+            <div class="text">
+                <p style="color: white;">la palabra es</p>
+                <p>
+                    <span class="word wisteria">CA_A </span>
+                    <span class="word belize">A_UL</span>
+                    <span class="word pomegranate">A N _ _ E S</span>
+                    <span class="word green">C_N_D_</span>
+                    <span class="word midnight">P_TO</span>
+                    <span class="word wisteria">C_R_OS</span>
+                    <span class="word belize">G_SAN_</span>
+                    <span class="word pomegranate">RU_IA</span>
+                    <span class="word green">MA_G_</span>
+                    <span class="word midnight">_AN_ANA</span>
+                </p>
+            </div>
+
+        </div>
+        <div class="col-4"></div>
+    </div>
+
+    <script src="ahorcadomulti.js"></script>
+    <script src="selec_animacion.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
